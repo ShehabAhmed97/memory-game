@@ -1,1 +1,252 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico);
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  display: inline-block;
+  font-size: 200%;
+}
+html{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:3%;
+    background-color: rgb(78, 112, 163);
+}
+#boxes{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background:linear-gradient(90deg,rgb(6, 85, 138),rgb(123, 83, 195));
+    height:85vh;
+    width:60vw;
+    border-radius: 3%;
+}
+#row-one{
+    order:0;
+    height:20%;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#one{
+    order:0;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#two{
+    order:1;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#three{
+    order:2;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#four{
+    order:3;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#row-two{
+    order:1;
+    height:20%;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#five{
+    order:0;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#six{
+    order:1;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#seven{
+    order:2;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#eight{
+    order:3;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#row-three{
+    order:2;
+    height:20%;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#nine{
+    order:0;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#ten{
+    order:1;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#eleven{
+    order:2;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#twelve{
+    order:3;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#row-four{
+    order:3;
+    height:20%;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#thirteen{
+    order:0;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#fourteen{
+    order:1;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#fifteen{
+    order:2;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#sixteen{
+    order:3;
+    background-color:rgba(255, 255, 255, 0.281);
+    width:20%;
+    height:100%;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 
