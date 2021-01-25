@@ -3,8 +3,21 @@
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
   display: inline-block;
-  font-size: 200%;
+  font-size: 400%;
 }
+@keyframes click {
+    from {background-color:rgba(255, 255, 255, 0.281);}
+    to {background-color: rgb(78, 112, 163);}
+  }
+  @keyframes right {
+    from {background-color:rgb(78, 112, 163);}
+    to {background-color: rgb(9, 255, 0);}
+  }
+  @keyframes wrong {
+    from {background-color:rgb(78, 112, 163);}
+    to {background-color: rgb(238, 15, 15);}
+  }
+
 html{
     display:flex;
     justify-content: center;
