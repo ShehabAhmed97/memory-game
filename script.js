@@ -12,7 +12,7 @@ for(let i=0;i<=boxes.length-1;i++){
     boxes[i].addEventListener('click',function(ev){
         if(ev.target.style.backgroundColor != "rgb(9, 255, 0)"){
             ev.target.innerHTML=`<p class=${icons[i]}></p>`
-            ev.target.setAttribute('style','animation-name: click;animation-duration: 2s;background-color: rgb(78, 112, 163);transform: rotateY(360deg);transition: transform 0.8s')
+            ev.target.setAttribute('style','animation-name: click;animation-duration: 1s;background-color: rgb(78, 112, 163);transform: rotateY(360deg);transition: transform 0.8s')
         }
             ev.preventDefault();
     })
@@ -50,8 +50,9 @@ for(i=0;i<=boxes.length-1;i++){
                        
                         // adding some styling incase of different cards, and hide the card again
                         targetArray[0].setAttribute('style','animation-name: wrong;animation-duration: 1s;animation-iteration-count:2;background-color: rgba(255, 255, 255, 0.281);')
-                        targetArray[1].setAttribute('style','animation-name: wrong;animation-duration: 1s;animation-iteration-count:2;background-color: rgba(255, 255, 255, 0.281);transform: rotateY(360deg);transition: transform 0.8s')
-
+                        setTimeout(function(){
+                            timeout[1].setAttribute('style','animation-name: wrong;animation-duration: 1s;animation-iteration-count:2;background-color: rgba(255, 255, 255, 0.281);transform: rotateY(360deg);transition: transform 0.8s')
+                        },80)
                         // delaying the hidding of the cards
                         setTimeout(function(){
                         timeout[0].removeChild(timeout[0].firstElementChild);
@@ -68,7 +69,7 @@ for(i=0;i<=boxes.length-1;i++){
                         targetArray=[];
             }
             }
-            ev.preventDefault();
+            
         }
         })
     }
